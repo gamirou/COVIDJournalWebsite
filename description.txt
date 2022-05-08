@@ -1,0 +1,20 @@
+COVIDJournal App
+
+SHORT
+A simple app to manage your contacts, and notifies you when to take a test.
+
+LONG
+In this app we want to tackle a problem so many people have. How do I keep track of my contacts, while
+keeping my privacy safe? COVIDJournal makes it easier for everyone to do just that. All you have to do,
+is to add your friends and family, and if either your or them get tested positive, the contacts will 
+get notified.
+
+We have no affiliation with any government, although you can use the information on the app, to let 
+the authorities know what you have been doing in order to trace the coronavirus.
+
+COVIDJournal will also provide you with news and statistics of each country, to keep you aware of how 
+the world is responding to the coronavirus pandemic.
+
+We work with Google to keep your data secure and reliable. 
+
+Track the coronavirus and save lives.

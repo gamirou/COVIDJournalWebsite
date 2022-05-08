@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../images/favicon.png" sizes="32x32">
+    <title>Download</title>
+
+    <!-- CSS -->
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' rel="stylesheet">
+    <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/policy.css"> -->
+
+    <!-- JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="../js/set_year.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md sticky-top navbar-light fixed-top bg-light">
+    <a class="navbar-brand" href="#home">
+      <img src="../images/app_logo_png.png" width="50px" height="50px"> COVIDJournal
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html#home">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../faq.html">How to use</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-outline-success my-2 my-sm-0"><a id="#download-link" href="#download">Download</a></button>
+    </div>
+  </nav>
+
+  <section class="section section-light">
+    <h2>Android</h2>
+    <p>
+        I am still waiting on Google's approval, but there is a 90% chance it won't get 
+        approved because their new policy says apps related to coronavirus have to be developed
+        by governments or public health bodies. Until then, I have included the download file below.
+        When downloading it, make sure to switch on the setting <strong>DOWNLOAD FROM
+            UNKNOWN SOURCES
+        </strong>, otherwise it won't work.
+    </p>
+    <p>
+      It will also say it might damage your phone. That is not true, this is a safety message
+      from google to prevent users from installing apps from outside of their store.
+    </p>
+    <p>
+      Download by
+        <a href="app-release.apk" download>
+          clicking here
+        </a>.
+    </p>
+  </section>
+
+  <section class="section section-dark">
+    <h2>Apple</h2>
+    <p>
+      Download by
+        <a href="https://bit.ly/IqT6zt" download>
+          clicking here
+        </a>.
+    </p>
+  </section>
+
+  <!-- FOOTER Contact -->
+  <footer class="section section-dark-green">
+    <a href="#" name="contact"></a>
+    <h2>Contact me</h2>
+    <div>
+      <a href="https://fb.me/COVIDJournalApp">
+        <i class="fa fa-facebook" aria-hidden="true"></i> 
+          COVID Journal App</a> <br>
+      <a href="https://www.instagram.com/covidjournal_app/">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        @covidjournal_app</a><br>
+      <a href="https://twitter.com/COVIDJournalApp">
+        <i class="fa fa-fw fa-twitter"></i>
+        @COVIDJournalApp
+      </a><br>
+      <a href="mailto:hello@covidjournal.net">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        hello@covidjournal.net
+      </a>
+   </div>
+   <div>
+     <a href="../policies/terms.html">Terms & Conditions</a> | 
+     <a href="../policies/privacy.html">Privacy Policy</a> | 
+     <a href="../policies/cookie.html">Cookie Policy</a>
+      <br> © <span id="year"></span> George Sima <br>
+    </div>
+  </footer>
+</body>
+</html>

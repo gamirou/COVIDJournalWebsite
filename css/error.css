@@ -1,0 +1,24 @@
+.section-error {
+    background-color: white;
+    color: #222;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "logo" "image"
+        "text" "image"
+    ;
+}
+
+.error-logo-pic {
+    grid-area: logo;
+}
+
+.illustration-error {
+    grid-area: image;
+}
+
+.error-text {
+    grid-area: text;
+}

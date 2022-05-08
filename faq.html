@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+    <title>How to use the app</title>
+
+    <!-- CSS -->
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' rel="stylesheet">
+    <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.3up.dk/mdi@2.2.43/css/materialdesignicons.min.css">
+
+    <!-- JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/set_year.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md sticky-top navbar-light fixed-top bg-light">
+    <a class="navbar-brand" href="#home">
+      <img src="images/app_logo_png.png" width="50px" height="50px"> COVIDJournal
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.html">How to use</a>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-outline-success my-2 my-sm-0"><a id="#download-link" href="download/index.html">Download</a></button>
+    </div>
+  </nav>
+
+  <div class="section pimg1">
+      <h2 style="color:#1d1d1d">Learn how to use COVIDJournal</h2>
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-lg-4">
+                <div class="nav nav-pills faq-nav d-flex flex-column" id="faq-tabs" role="tablist" aria-orientation="vertical">
+                    <!-- <a href="#tab1" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab1" aria-selected="true">
+                        <i class="mdi mdi-help-circle"></i> Frequently Asked Questions
+                    </a> -->
+                    <a style="color: aliceblue;" href="#tab2" class="nav-link active" data-toggle="pill" role="tab" aria-controls="tab2" aria-selected="false">
+                        <i class="mdi mdi-account"></i> Account
+                    </a>
+                    <a style="color: aliceblue;" href="#tab3" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab3" aria-selected="false">
+                        <i class="mdi mdi-face-profile"></i> Profile
+                    </a>
+                    <a style="color: aliceblue;" href="#tab4" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab4" aria-selected="false">
+                        <i class="mdi mdi-account-multiple"></i> Friends
+                    </a>
+                    <a style="color: aliceblue;" href="#tab5" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab5" aria-selected="false">
+                        <i class="mdi mdi-puzzle"></i> Posts
+                    </a>
+                    <a style="color: aliceblue;" href="#tab6" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab6" aria-selected="false">
+                        <i class="mdi mdi-test-tube"></i> Tests
+                    </a>
+                    <a style="color: aliceblue;" href="#tab7" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab7" aria-selected="false">
+                        <i class="mdi mdi-emoticon-sad"></i> Symptoms
+                    </a>
+                    <a style="color: aliceblue;" href="#tab8" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab8" aria-selected="false">
+                        <i class="mdi mdi-notification-clear-all"></i> Notifications
+                    </a>
+                    <a style="color: aliceblue;" href="#tab9" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab9" aria-selected="false">
+                        <i class="mdi mdi-account-settings-variant"></i> Settings
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="tab-content" id="faq-tab-content">
+                    <div class="tab-pane show active" id="tab2" role="tabpanel" aria-labelledby="tab2">
+                        <div class="accordion" id="accordion-tab-2">
+                            <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-1">
+                                            <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-1" aria-expanded="false" aria-controls="accordion-tab-2-content-1">Creating an account</button>
+                                            </h5>
+                                    </div>
+                                    <div class="collapse show" id="accordion-tab-2-content-1" aria-labelledby="accordion-tab-2-heading-1" data-parent="#accordion-tab-2">
+                                            <div class="card-body">
+                                                    <p>
+                                                        It is very easy and straightforward to create an account with COVIDJournal.
+                                                        Once you have gone through the information pages when you first enter the app, press
+                                                        <strong> GET STARTED </strong>. If you are on the start up screen, just press 
+                                                        <strong> REGISTER </strong>.
+                                                        The only method of sign up at the moment is by email.
+                                            </div>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-2">
+                                            <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-2" aria-expanded="false" aria-controls="accordion-tab-2-content-2">Creating an account with email</button>
+                                            </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-2-content-2" aria-labelledby="accordion-tab-2-heading-2" data-parent="#accordion-tab-2">
+                                            <div class="card-body">
+                                                    <p>
+                                                        Once you complete the last card, you will be brought to the signup page. This is where 
+                                                        you have to fill in your details. We use these details to authenticate you (email and password). 
+                                                        We use your birthday to verify your age. Once you've filled in your details and read through our 
+                                                        <strong>Privacy Policy</strong> and <strong>Terms and Conditions</strong>, tap the checkboxes
+                                                        and press <strong> REGISTER HERE </strong>. You can also add a profile picture by tapping 
+                                                        the picture in the top right corner.
+                                                        You will receive an email verification link. Before you verify your account,
+                                                        you will not have all the features. You have to click the link in your email
+                                                        in order to unlock the features and then you can the make the most out of
+                                                        COVIDJournal.
+                                                    </p>    
+                                            </div>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-4">
+                                            <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-4" aria-expanded="false" aria-controls="accordion-tab-2-content-4">Creating an account with facebook</button>
+                                            </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-2-content-4" aria-labelledby="accordion-tab-2-heading-4" data-parent="#accordion-tab-2">
+                                            <div class="card-body">
+                                                    <p>This feature is under construction.</p>
+                                            </div>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-5">
+                                            <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                                    data-target="#accordion-tab-2-content-5" aria-expanded="false" 
+                                                    aria-controls="accordion-tab-2-content-5">Logging in to your account</button>
+                                            </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-2-content-5" aria-labelledby="accordion-tab-2-heading-5" data-parent="#accordion-tab-2">
+                                            <div class="card-body">
+                                                    <p>
+                                                        From the start up screen press <strong>LOG IN</strong>. 
+                                                        This will open a login page where you enter your email and password associated 
+                                                        with your account. Once this is done, tap the <strong>LOG IN</strong> button and 
+                                                        you will be redirected to your account.</p>
+                                            </div>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-6">
+                                            <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                                    data-target="#accordion-tab-2-content-6" aria-expanded="false" 
+                                                    aria-controls="accordion-tab-2-content-6">What happens if I forget my password?</button>
+                                            </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-2-content-6" aria-labelledby="accordion-tab-2-heading-6" data-parent="#accordion-tab-2">
+                                            <div class="card-body">
+                                                    <p>It happens to the best of us. From the login page (<strong>LOG IN</strong>) 
+                                                        tap <strong>FORGOT PASSWORD</strong>. You will be redirected to a page where you can 
+                                                        enter the email address associated with your account. 
+                                                        Once its been filled out, tap <strong>SEND VERIFICATION EMAIL</strong>. 
+                                                        You should be sent an email with a link to reset your password.</p>
+                                            </div>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-7">
+                                            <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                                    data-target="#accordion-tab-2-content-7" aria-expanded="false" 
+                                                    aria-controls="accordion-tab-2-content-7">Logging out of your account</button>
+                                            </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-2-content-7" aria-labelledby="accordion-tab-2-heading-7" data-parent="#accordion-tab-2">
+                                            <div class="card-body">
+                                                    <p>
+                                                       Swipe to the right or press the navigation button
+                                                       (<strong><i class="fa fa-bars" aria-hidden="true"></i></strong>). Press 
+                                                       the button (<strong>Account</strong> -> <strong>Log out</strong>).
+                                                       You will be directed to the startup screen.
+                                                    </p>
+                                            </div>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                    <div class="card-header" id="accordion-tab-2-heading-8">
+                                            <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-8" aria-expanded="false" aria-controls="accordion-tab-2-content-8">Deleting your account</button>
+                                            </h5>
+                                    </div>
+                                    <div class="collapse" id="accordion-tab-2-content-8" aria-labelledby="accordion-tab-2-heading-8" data-parent="#accordion-tab-2">
+                                            <div class="card-body">
+                                                    <p>
+                                                        It is sad to see you go, but it's your choice to leave. We have 
+                                                        a feature under construction, but until then, you can send us 
+                                                        an email at (<i class="fa fa-envelope" aria-hidden="true"></i>) 
+                                                        <a href="mailto:delete@covidjournal.net">delete@covidjournal.net</a>.
+                                                        You will have to tell us why you want to delete your account.
+                                                        Your data will be erased from our servers once your account is deleted.
+                                                        <!-- To <strong>permanently</strong> delete your account, 
+                                                        At the bottom of the screen you'll find a section named 
+                                                        <strong>Delete</strong> tap <strong>Delete Account.</strong> 
+                                                        A popup will display asking you whether you want to continue, 
+                                                        tap <strong>Yes</strong> to delete your account 
+                                                        <strong>permanently</strong> this <strong>cannot be undone</strong>. 
+                                                        You will be directed to the startup screen and your data saved with 
+                                                        us will be deleted. -->
+                                                    </p>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="tab3">
+                        <div class="accordion" id="accordion-tab-3">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-3-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-3-content-1" aria-expanded="false" 
+                                        aria-controls="accordion-tab-3-content-1">Can I change my name, email, gender or birthday?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-3-content-1" aria-labelledby="accordion-tab-3-heading-1" data-parent="#accordion-tab-3">
+                                    <div class="card-body">
+                                        <p>At the moment you cannot change these fields. It prevents false identities 
+                                            if you keep on changing your name and birthday. Therefore it can only be set 
+                                            once. In future we will set up a way for you to change your email associated 
+                                            with your account.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-3-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-2" aria-expanded="false" aria-controls="accordion-tab-3-content-2">Changing your profile picture</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-3-content-2" aria-labelledby="accordion-tab-3-heading-2" data-parent="#accordion-tab-3">
+                                    <div class="card-body">
+                                        <p>From your profile (<strong>Profile tab</strong>) simpily tap on your existing profile picture. If you haven't already allowed access to your camera, a popup will show asking you to allow it. If you have allowed access, a popup will show asking you to pick a new photo. This can either be from your <strong>camera</strong>, or your <strong>photos libaray.</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-3-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-3" aria-expanded="false" aria-controls="accordion-tab-3-content-3">Sharing your account to other platforms</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-3-content-3" aria-labelledby="accordion-tab-3-heading-3" data-parent="#accordion-tab-3">
+                                    <div class="card-body">
+                                        <p>This feature is under construction.</p>
+                                        <!-- <p>You may want to share your profile to friends from other sites so they can find you on Gifte without searching your name. To do this. Go to your profile (<strong>Profile tab</strong>) and tap the <strong>share icon</strong> in the top left corner. This will generate a link that you can share. Who ever clicks on the link will be taken to your account on the Gifte app. If they have not installed the app, they will be taken to the app store and redirected once installed.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-3-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-3-content-4" aria-expanded="false" 
+                                        aria-controls="accordion-tab-3-content-4">What information can I edit?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-3-content-4" aria-labelledby="accordion-tab-3-heading-3" data-parent="#accordion-tab-3">
+                                    <div class="card-body">
+                                        <p>
+                                            At the moment you can only change your country and city.
+                                            To edit them, press on your existing country and city, respectively.
+                                            To save your changes, tap the button <strong>APPLY CHANGES</strong>.
+                                            To edit your symptoms, tap the button <strong>CLICK 
+                                                HERE TO ENTER YOUR SYMPTOMS
+                                            </strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab4" role="tabpanel" aria-labelledby="tab4">
+                        <div class="accordion" id="accordion-tab-4">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-4-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-4-content-1" aria-expanded="false" 
+                                        aria-controls="accordion-tab-4-content-1">Finding your friends</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-4-content-1" aria-labelledby="accordion-tab-4-heading-1" data-parent="#accordion-tab-4">
+                                    <div class="card-body">
+                                        <p>
+                                            There are multiple ways that you can find your friends. 
+                                            The most common way is through the friends page.
+                                            Click the navigation button, or swipe to the right, and 
+                                            press <strong>FRIENDS</strong>. At the top you can see 
+                                            who sent you a friend request. Below, you can see a list 
+                                            of all your friends.
+                                            You can also search your friend by pressing the button 
+                                            <strong>ADD USER</strong> on the navigation drawer. 
+                                            At the top of the screen will show a search bar. 
+                                            <strong>Type</strong> your friends name into the search bar 
+                                            and a list of people will be shown. From here you can view 
+                                            their profile image to verify that it is your friend.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-4-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-4-content-2" aria-expanded="false" 
+                                        aria-controls="accordion-tab-4-content-2">Adding your friends</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-4-content-2" aria-labelledby="accordion-tab-4-heading-2" data-parent="#accordion-tab-4">
+                                    <div class="card-body">
+                                        <p>
+                                            Once you've located your friends its time to add them. 
+                                            You can send them a friend request by tapping the user 
+                                            button in the bottom right corner. Below their name, you 
+                                            can see if the request has been sent. They will have to accept 
+                                            this request before you are friends. If your friend has sent 
+                                            you a friend request you can accept it by going to the 
+                                            <strong>FRIENDS</strong> page as shown in the last card.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-4-heading-6">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-4-content-6" aria-expanded="false" 
+                                        aria-controls="accordion-tab-4-content-6">Can I see my friends' friends?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-4-content-6" aria-labelledby="accordion-tab-4-heading-6" data-parent="#accordion-tab-4">
+                                    <div class="card-body">
+                                        <p>
+                                            At the moment, you cannot view their friends in order to respect 
+                                            users' privacy.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-4-heading-8">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-4-content-8" aria-expanded="false" 
+                                        aria-controls="accordion-tab-4-content-8">Removing your friend</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-4-content-8" aria-labelledby="accordion-tab-4-heading-8" data-parent="#accordion-tab-4">
+                                    <div class="card-body">
+                                        <p>
+                                            At the moment, you cannot delete your friends.
+                                            Sorry for the inconvience, we will add this feature 
+                                            in the next update.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab5" role="tabpanel" aria-labelledby="tab5">
+                        <div class="accordion" id="accordion-tab-5">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-5-content-1" aria-expanded="false" 
+                                        aria-controls="accordion-tab-5-content-1">What are posts?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-5-content-1" aria-labelledby="accordion-tab-5-heading-1" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>
+                                            Posts are the most important feature of the app.
+                                            They are used to add contacts or places where 
+                                            you have been (still working on it). You will be 
+                                            notified immediately if you need to get a test.
+                                            So make sure to keep it updated in order to make the 
+                                            most of COVIDJournal.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-5-content-2" aria-expanded="false" 
+                                        aria-controls="accordion-tab-5-content-2">Adding a contact</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-5-content-2" 
+                                aria-labelledby="accordion-tab-5-heading-2" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>
+                                            You can access the <strong>ADD PERSON</strong> page in two ways.
+                                            You can either go to the <strong>HOME</strong> page and 
+                                            press the button underneath your countries' statistics, or
+                                            you can swipe right and click <strong>ADD PERSON</strong>.
+                                            Then, you can add a title to your post, the person's name.
+                                            If you want to add a user, you will have to be friends 
+                                            with them first. If that user, does not have a COVIDJournal
+                                            account, make sure to let them know yourself, or invite
+                                            them to our app. You can also add at what time you met them.
+                                            If you put an user down, the post will not be added
+                                            immediately. The other person will be notified, and they 
+                                            will have to confirm whether it is true or not.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-5-content-3" aria-expanded="false" 
+                                        aria-controls="accordion-tab-5-content-3">Adding an activity</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-5-content-3" 
+                                aria-labelledby="accordion-tab-5-heading-3" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>
+                                            You can access the <strong>ADD ACTIVITY</strong> page in two 
+                                            ways. You can either go to the <strong>HOME</strong> page and 
+                                            press the button underneath your countries' statistics, or
+                                            you can swipe right and click <strong>ADD ACTIVITY</strong>.
+                                            Then, you can add a title to your post, a description, roughly
+                                            how many people were there and when you did this activity.
+                                            Examples include, going to the supermarket, or visiting a museum.
+                                            You will not be notified based on these activities, but
+                                            you can tell the authorities what you've been doing for 
+                                            the past 14 days, so they can investigate these places.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-5-content-4" aria-expanded="false" 
+                                        aria-controls="accordion-tab-5-content-4">Why can't we add location?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-5-content-4" 
+                                aria-labelledby="accordion-tab-5-heading-4" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>
+                                            We encountered a problem while developing the app.
+                                            We will add location to posts in the next update
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-5-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-5-content-4" aria-expanded="false" 
+                                        aria-controls="accordion-tab-5-content-4">Deleting posts</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-5-content-4" 
+                                aria-labelledby="accordion-tab-5-heading-4" data-parent="#accordion-tab-5">
+                                    <div class="card-body">
+                                        <p>
+                                            This feature is under construction.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab6" role="tabpanel" aria-labelledby="tab6">
+                        <div class="accordion" id="accordion-tab-6">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-6-content-1" aria-expanded="false" 
+                                        aria-controls="accordion-tab-6-content-1">
+                                        Viewing your tests
+                                    </button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-6-content-1" aria-labelledby="accordion-tab-6-heading-1" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>
+                                            You can find your tests by going to the <strong>PROFILE</strong>
+                                            page. You can find your tests below your city and country.
+                                            You can see a list of your tests.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-6-content-2" aria-expanded="false" 
+                                        aria-controls="accordion-tab-6-content-2">Adding a test</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-2" aria-labelledby="accordion-tab-6-heading-2" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>
+                                            Click the button in the bottom right corner that says 
+                                            <strong>+ ADD TEST</strong>. You will be redirected
+                                            to a page that will let you add the date at which you 
+                                            took the test, the date at which you received the result
+                                            and the result of the test. If your test is pending, you 
+                                            do not have to put your result. You can add it later.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-6-content-3" aria-expanded="false" 
+                                        aria-controls="accordion-tab-6-content-3">Accessing friends tests</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-3" aria-labelledby="accordion-tab-6-heading-3" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>
+                                            You cannot see your friends' tests. It is confidential.
+                                            You can only see if they are tested positive/unknown/pending
+                                            and if you have been in contact with them.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-6-content-4" aria-expanded="false" 
+                                        aria-controls="accordion-tab-6-content-4">Deleting a test</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-4" aria-labelledby="accordion-tab-6-heading-4" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>
+                                            You can delete a test by going to the <strong>PROFILE</strong>
+                                            page and tap on the test you want to delete.
+                                            Scroll down and press <strong>DELETE</strong>.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-5">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-6-content-5" aria-expanded="false" 
+                                        aria-controls="accordion-tab-6-content-5">Editing a test</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-5" aria-labelledby="accordion-tab-6-heading-5" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>
+                                            If you have received your result, look for the test 
+                                            by the result (it should say <strong>PENDING</strong>) or
+                                            the date you took the test (<strong>Order: </strong>).
+                                            You can add the result and the date of the result.
+                                            Once you are finished, press <strong>SAVE</strong>.
+                                            Be careful, you cannot change the date at which you took 
+                                            the test. You will have to delete it and add a new test.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-6">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-6-content-6" aria-expanded="false" 
+                                        aria-controls="accordion-tab-6-content-6">What happens after?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-6" aria-labelledby="accordion-tab-6-heading-6" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>
+                                            If your test is positive, all of the users that you were 
+                                            in contact in the last 14 days will be notified.
+                                            If the result is pending or unknown, they are told to get a test 
+                                            themselves. If the result is negative and you were previously
+                                            notified from other contacts, they will get a notification 
+                                            with the test of your result.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-6-heading-6">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-6-content-6" aria-expanded="false" 
+                                        aria-controls="accordion-tab-6-content-6">How can I report a user?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-6-content-6" aria-labelledby="accordion-tab-6-heading-6" data-parent="#accordion-tab-6">
+                                    <div class="card-body">
+                                        <p>
+                                            If a user is spamming you, send us an email at hello@covidjournal.net,
+                                            and we will terminate their account. If needed, we can take
+                                            legal action against them.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab7" role="tabpanel" aria-labelledby="tab7">
+                        <div class="accordion" id="accordion-tab-7">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-7-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-7-content-1" aria-expanded="false" 
+                                        aria-controls="accordion-tab-7-content-1">Editing symptoms</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-7-content-1" aria-labelledby="accordion-tab-7-heading-1" data-parent="#accordion-tab-7">
+                                    <div class="card-body">
+                                        <p>
+                                            Similarly to tests, to access the <strong>SYMPTOMS</strong> page,
+                                            you will need to go to the <strong>PROFILE</strong> page.
+                                            To edit your symptoms, tap the button 
+                                            <strong>CLICK HERE TO ENTER YOUR SYMPTOMS</strong>.
+                                            On the first page, you can edit the most common symptoms.
+                                            On the second page, you can edit the more severe symptoms,
+                                            (we hope you do not have them). If you have any of them,
+                                            you will need medical assistance.
+                                            On the last page, you can enter where you are right now,
+                                            either at home or in hospital. If you have any symptoms,
+                                            your contacts will be notified.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-7-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-7-content-2" aria-expanded="false" 
+                                        aria-controls="accordion-tab-7-content-2">Personalized content based on symptoms</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-7-content-2" aria-labelledby="accordion-tab-7-heading-2" data-parent="#accordion-tab-7">
+                                    <div class="card-body">
+                                        <p>
+                                            This feature is under construction
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab8" role="tabpanel" aria-labelledby="tab8">
+                        <div class="accordion" id="accordion-tab-8">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-8-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-8-content-1" aria-expanded="false" aria-controls="accordion-tab-8-content-1">Types of push notifications</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-8-content-1" aria-labelledby="accordion-tab-8-heading-1" data-parent="#accordion-tab-8">
+                                    <div class="card-body">
+                                        <p>If you opt into push notifications then you will receive them when these events happen: </p>
+                                                                            <p><strong>1.</strong> When someone sends you a friend request</p>
+                                                                            <p><strong>2.</strong> When someone accepts your friend request</p>
+                                                                            <p><strong>3.</strong> When a contact has or might have the coronavirus</p>
+                                                                            <p><strong>4.</strong> When someone tries to add a post with your name</p>
+                                                                            <p>More events are being added soon.</p>
+                                                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-8-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-8-content-2" aria-expanded="false" 
+                                        aria-controls="accordion-tab-8-content-2">Types of notifications that appear in the notification tab</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-8-content-2" aria-labelledby="accordion-tab-8-heading-2" data-parent="#accordion-tab-8">
+                                    <div class="card-body">
+                                        <p>The same as above</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-8-heading-3">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-8-content-3" aria-expanded="false" 
+                                        aria-controls="accordion-tab-8-content-3">Notification page</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-8-content-3" aria-labelledby="accordion-tab-8-heading-3" data-parent="#accordion-tab-8">
+                                    <div class="card-body">
+                                        <p>
+                                            You can also access your notifications by tapping the notification 
+                                            button (<i class="fa fa-bell" aria-hidden="true"></i>) at the top 
+                                            of the screen. You can see the notifications from the 
+                                            notification bar. This is where you can accept/reject a post 
+                                            from your friends. This is also where you are reminded to add
+                                            the result of a pending test. If you need to accept a friend 
+                                            request, you will be redirected to the Friends page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-8-heading-4">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-8-content-4" aria-expanded="false" aria-controls="accordion-tab-8-content-4">Deleting notifications</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-8-content-4" aria-labelledby="accordion-tab-8-heading-4" data-parent="#accordion-tab-8">
+                                    <div class="card-body">
+                                        <p>
+                                            You can delete notifications via the 
+                                            <strong>notifications tab</strong> by either tapping the 
+                                            <strong>cross</strong> on the individual notification, or 
+                                            by tapping <strong>Remove All</strong> to remove all notifications 
+                                            at once. In order to delete them from the Notifications page,
+                                            you need to complete the actions needed. So, for example,
+                                            if you are told to accept/reject a post, you are given two
+                                            buttons to press. If you need to add the result of a pending test,
+                                            you will be redirected to the user test page. If you complete 
+                                            the action, the notification will also be removed from the page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab9" role="tabpanel" aria-labelledby="tab9">
+                        <div class="accordion" id="accordion-tab-9">
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-9-heading-1">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-9-content-1" aria-expanded="false" 
+                                        aria-controls="accordion-tab-9-content-1">How to access settings</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse show" id="accordion-tab-9-content-1" aria-labelledby="accordion-tab-9-heading-1" data-parent="#accordion-tab-9">
+                                    <div class="card-body">
+                                        <p>
+                                            Swipe left or click the navigation button and scroll
+                                            down to the <strong>SETTINGS</strong> page.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="accordion-tab-9-heading-2">
+                                    <h5>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" 
+                                        data-target="#accordion-tab-9-content-2" aria-expanded="false" 
+                                        aria-controls="accordion-tab-9-content-2">What can I access from the settings?</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="accordion-tab-9-content-2" aria-labelledby="accordion-tab-9-heading-2" data-parent="#accordion-tab-9">
+                                    <div class="card-body">
+                                        <p>
+                                            You can turn notifications on or off, you can go to your profile,
+                                            you can reset your password, verify your email or you can 
+                                            read our legal stuff.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <footer class="section section-dark-green">
+    <a href="#" name="contact"></a>
+    <h2>Contact me</h2>
+    <div>
+      <a href="https://fb.me/COVIDJournalApp">
+        <i class="fa fa-facebook" aria-hidden="true"></i> 
+          COVID Journal App</a> <br>
+      <a href="https://www.instagram.com/covidjournal_app/">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        @covidjournal_app</a><br>
+      <a href="https://twitter.com/COVIDJournalApp">
+        <i class="fa fa-fw fa-twitter"></i>
+        @COVIDJournalApp
+      </a><br>
+      <a href="mailto:hello@covidjournal.net">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        hello@covidjournal.net
+      </a>
+   </div>
+   <div>
+     <a href="/policies/terms.html">Terms & Conditions</a> | 
+     <a href="/policies/privacy.html">Privacy Policy</a> | 
+     <a href="/policies/cookie.html">Cookie Policy</a>
+      <br> © <span id="year"></span> George Sima <br>
+    </div>
+  </footer>
+</body>
+
+<style>
+    .faq-nav {
+        background-color: #4d4d4d;
+    }
+    .card-body {
+        color: #1d1d1d;
+    }
+    .btn-link {
+        font-size: 24px;
+        font-family: 'Jost', serif;
+        color: #1d1d1d;
+    }
+    .btn-link:hover {
+        color: #000;
+    }
+</style>
+</html>
